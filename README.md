@@ -6,7 +6,17 @@ Developed under the guidance of Jonas Schmedtmann and his JavaScript course, thi
 
 The following are the preconfigured accounts available for logging into the application.
 
-## Preconfigured Accounts
+## Features
+
+- Login in
+- Transfere between accounts
+- Request loans
+- Check Balance, total deposits and total withdrowal
+- Sort by ammount
+- Display the actual currecuy of the account: "EUR" or "USD"
+- Close the account
+
+### Preconfigured Accounts
 
 Account 1
 
@@ -34,15 +44,11 @@ Account 4
 
 You can only transfer and request between these 4 accounts at the moment. Remember to type in the username (initials) when doing so.
 
-## Features
+## Technologies Used
 
-- Login in
-- Transfere between accounts
-- Request loans
-- Check Balance, total deposits and total withdrowal
-- Sort by ammount
-- Display the actual currecuy of the account: "EUR" or "USD"
-- Close the account
+HTML
+CSS
+Vanilla JavaScript
 
 # Demo:
 
