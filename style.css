@@ -21,6 +21,7 @@ body {
   background-color: #f3f3f3;
   height: 100vh;
   padding: 2rem;
+  /* background-color: #38305f; */
 }
 
 nav {
@@ -31,7 +32,7 @@ nav {
 }
 
 .welcome {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -53,7 +54,7 @@ nav {
   border-radius: 10rem;
   margin-right: 1rem;
   color: inherit;
-  border: 1px solid #fff;
+  border: 1px solid rgb(225, 225, 238);
   transition: all 0.3s;
 }
 
@@ -300,4 +301,102 @@ h2 {
 
 .timer {
   font-weight: 600;
+}
+
+@media screen and (max-width: 60rem) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+
+    /* border-bottom: 1px dotted #312476; */
+  }
+
+  .app {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto);
+    max-width: 55rem;
+    gap: 2rem;
+
+    /* NOTE This creates the fade in/out anumation */
+    opacity: 0;
+    transition: all 1s;
+  }
+
+  .balance {
+    grid-row: 1 / 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .movements {
+    grid-row: 2 / 2;
+    grid-column: 1 / 1;
+  }
+  .movements__row {
+    padding: 1rem;
+  }
+  .summary {
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+    display: flex;
+    max-width: 55rem;
+  }
+
+  .operation {
+    max-width: 28rem;
+    grid-column: 1 / 1;
+  }
+  .operation--transfer {
+    grid-row: 4 / 4;
+  }
+
+  .operation--loan {
+    grid-row: 5 / 5;
+  }
+
+  .operation--close {
+    grid-row: 6 / 6;
+  }
+
+  .logout-timer {
+    grid-row: 7 / 7;
+    grid-column: 1 / 1;
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: auto auto; */
+    gap: 0.4rem 1rem;
+  }
+
+  .movements__value {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 35rem) {
+  .app {
+    max-width: 35rem;
+  }
+  .balance {
+    grid-row: 1 / 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .summary {
+    flex-direction: column;
+  }
 }
