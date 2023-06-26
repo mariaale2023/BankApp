@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444;
   background-color: #f3f3f3;
   height: 100vh;
@@ -155,7 +155,7 @@ nav {
 }
 
 .movements__type--deposit {
-  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  background-image: linear-gradient(to top left, #312476, #5c4cab);
 }
 
 .movements__type--withdrawal {
@@ -190,7 +190,7 @@ nav {
 
 .summary__value--in,
 .summary__value--interest {
-  color: #66c873;
+  color: #312476;
 }
 
 .summary__value--out {
@@ -214,15 +214,17 @@ nav {
 }
 
 .operation--transfer {
-  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  background-image: linear-gradient(to top left, #03b8ff, #52ceff);
 }
 
 .operation--loan {
-  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  background-image: linear-gradient(to top left, #312476, #5c4cab);
+  color: #fff;
 }
 
 .operation--close {
-  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+  background-image: linear-gradient(to top left, #782ae5, #9145fa);
+  color: #fff;
 }
 
 h2 {
@@ -230,6 +232,10 @@ h2 {
   font-size: 1.7rem;
   font-weight: 600;
   color: #333;
+}
+.operation--loan h2,
+.operation--close h2 {
+  color: #fff;
 }
 
 .form {
@@ -267,7 +273,7 @@ h2 {
 }
 
 .form__label {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 

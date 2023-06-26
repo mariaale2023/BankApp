@@ -6,22 +6,44 @@ Developed under the guidance of Jonas Schmedtmann and his JavaScript course, thi
 
 The following are the preconfigured accounts available for logging into the application.
 
-## Accounts Predefine
+## Preconfigured Accounts
 
-Name: Maria Vasquez
-Username (to Login): jm
-Password: 1111
+Account 1
 
-Name: George Altamirano
-Username (to Login): os
-Password: 2222
+- Name: Phil Connors
+- Username (to Login): pc
+- Password: 1111
 
-Name: Stephen James
-Username (to Login): sj
-Password: 3333
+Account 2
 
-Name: Mary Jane
-Username (to Login): lr
-Password: 4444
+- Name: Steve Zissou
+- Username (to Login): sz
+- Password: 2222
+
+Account 3
+
+- Name: Carl Spackerl
+- Username (to Login): cs
+- Password: 3333
+
+Account 4
+
+- Name: Bob Harris
+- Username (to Login): bh
+- Password: 4444
 
 You can only transfer and request between these 4 accounts at the moment. Remember to type in the username (initials) when doing so.
+
+## Features
+
+- Login in
+- Transfere between accounts
+- Request loans
+- Check Balance, total deposits and total withdrowal
+- Sort by ammount
+- Display the actual currecuy of the account: "EUR" or "USD"
+- Close the account
+
+# Demo:
+
+![BackApp Demo view ](AppView.png)
