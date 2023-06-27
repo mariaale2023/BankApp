@@ -29,6 +29,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 .welcome {
