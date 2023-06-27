@@ -351,24 +351,29 @@ h2 {
   }
 
   .operation {
-    max-width: 28rem;
+    /* max-width: 28rem; */
     grid-column: 1 / 1;
+    margin: 0 auto;
   }
   .operation--transfer {
     grid-row: 4 / 4;
+    width: 100%;
   }
 
   .operation--loan {
     grid-row: 5 / 5;
+    width: 100%;
   }
 
   .operation--close {
     grid-row: 6 / 6;
+    width: 100%;
   }
 
   .logout-timer {
     grid-row: 7 / 7;
     grid-column: 1 / 1;
+    text-align: center;
   }
 
   .form {
