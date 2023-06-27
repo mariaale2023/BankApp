@@ -1,4 +1,4 @@
-# BankApp
+# TrustBank App
 
 Built with HTML, CSS, and JavaScript, this application enables users to deposit and request funds across a range of predetermined accounts. It leverages JavaScript principles such as manipulating the Document Object Model (DOM), utilizing functions, and primarily employing arrays and array methods.
 
@@ -50,7 +50,7 @@ HTML
 CSS
 Vanilla JavaScript
 
-# Demo:
+## Demo: https://trustbank.netlify.app/
 
 ![BackApp Demo Web view ](AppView.png)
 ![BackApp Demo Mobile view ](MobileView.png)
