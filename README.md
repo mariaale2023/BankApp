@@ -52,4 +52,5 @@ Vanilla JavaScript
 
 # Demo:
 
-![BackApp Demo view ](AppView.png)
+![BackApp Demo Web view ](AppView.png)
+![BackApp Demo Mobile view ](MobileView.png)
